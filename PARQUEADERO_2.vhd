@@ -118,25 +118,25 @@ Process(bandera, current_state,contrasena)
 		when Pq1 => if(contrasena="0001") then
 							Ocupado1 <="0001";
 						end if;
-		when Pq2 => if(contrasena="0001") then
+		when Pq2 => if(contrasena="0010") then
 							Ocupado2 <="0010";
 						end if;
-		when Pq3 => if(contrasena="0001") then
+		when Pq3 => if(contrasena="0011") then
 							Ocupado3 <="0011";
 						end if;
-		when Pq4 => if(contrasena="0001") then
+		when Pq4 => if(contrasena="0100") then
 							Ocupado4 <="0100";
 						end if;
-		when Pq5 => if(contrasena="0001") then
+		when Pq5 => if(contrasena="0101") then
 							Ocupado5 <="0101";
 						end if;
-		when Pq6 => if(contrasena="0001") then
+		when Pq6 => if(contrasena="0110") then
 							Ocupado6 <="0110";
 						end if;
-		when Pq7 => if(contrasena="0001") then
+		when Pq7 => if(contrasena="0111") then
 							Ocupado7 <="0111";
 						end if;
-		when Pq8 => if(contrasena="0001") then
+		when Pq8 => if(contrasena="1000") then
 							Ocupado8 <="1000";
 						end if;
 		end case;
